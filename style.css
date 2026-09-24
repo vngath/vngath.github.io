@@ -321,21 +321,10 @@ nav a:hover {
 
     object-fit: cover;
 
-    display: none;
+    display: block;
 }
 
-.image-placeholder {
-    width: 100%;
-    height: 100%;
 
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-
-    color: #aaa69e;
-}
 
 .image-placeholder i {
     font-size: 52px;
@@ -357,29 +346,6 @@ nav a:hover {
     max-width: 180px;
 }
 
-.image-controls {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    margin-top: 18px;
-}
-
-.image-btn,
-.remove-btn {
-    border: 1px solid #d6d3cc;
-
-    background: rgba(255, 255, 255, 0.6);
-
-    border-radius: 100px;
-
-    padding: 8px 14px;
-
-    font-size: 11px;
-    cursor: pointer;
-
-    transition: 0.2s;
-}
 
 .image-btn:hover,
 .remove-btn:hover {
